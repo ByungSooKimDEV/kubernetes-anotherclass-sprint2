@@ -30,7 +30,7 @@ spec:
       nodeSelector:
       containers:
         - name: api-tester-2
-          image: <Dockerhub-Username>/api-tester:v2.0.0
+          image: byungsookim/api-tester:v2.0.0
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
